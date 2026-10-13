@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-ink-50 text-slate-800 dark:bg-[#0d0c12] dark:text-slate-100;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.scribble-grid {
+  background-image: radial-gradient(rgba(99, 102, 241, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.dark .scribble-grid {
+  background-image: radial-gradient(rgba(165, 180, 252, 0.09) 1px, transparent 1px);
+}
+
+canvas {
+  touch-action: none;
+}
