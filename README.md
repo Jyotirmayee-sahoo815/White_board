@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ScribbleBoard
 
 Repository: [https://github.com/Jyotirmayee-sahoo815/White_board](https://github.com/Jyotirmayee-sahoo815/White_board)
@@ -173,3 +174,6 @@ npm run dev:client
 ## License
 
 MIT
+=======
+# White_board
+>>>>>>> b636bb4d2911e744334c7d1e6faf5237a3e937b7
